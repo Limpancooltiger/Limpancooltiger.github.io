@@ -1,0 +1,105 @@
+body, ul{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: #151515;
+  color: white;
+  font-family: Rubik;
+}
+
+a{
+  color: inherit;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+/*Controls the main placment*/
+#main_grid{
+  display: grid;
+  grid-template-rows: min-content 100vh min-content;
+}
+
+/*Navigation header*/
+nav{
+  border-bottom: 2px solid rgb(130, 130, 130);
+  background: #151515;
+}
+
+.nav_grid{
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: 1fr repeat(3, fit-content(100%));
+  grid-column-gap: 1em;
+  padding: 1em;
+}
+
+.nav_grid:first-child:last-child {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+/*About me part*/
+.me{
+  display: grid;
+  grid-template-columns:  auto auto;
+  align-items:center;
+}
+.me > img {
+  margin: auto;
+}
+
+/*Project part*/
+.projects{
+  display: grid;
+  grid-template-rows: 1400px 1400px;
+}
+
+.guitar {
+  color: rgb(56, 168, 84);
+}
+
+.projects h1 {
+  font-size: 70px
+}
+
+.guitar{
+  background-image: url("../images/guitar.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 100px
+}
+
+.hexapod{
+  display: grid;
+  grid-template-columns: 50vw 50vw;
+  grid-template-rows: min-content min-content;
+}
+
+.hexi{
+  object-fit: cover;
+  object-position: center;
+  overflow: hidden;
+}
+.firstpicture{
+  object-fit: cover;
+  object-position: center;
+  overflow: hidden;
+}
+
+.bigPicture{
+  grid-column: 1/3;
+}
+
+.hexi, .bigPicture, .firstpicture {
+object-fit: cover;
+width: 100%;
+height: 100vh;
+}
+
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
