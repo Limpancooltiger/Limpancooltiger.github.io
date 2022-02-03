@@ -310,11 +310,9 @@ footer{
   grid-row-gap: 20px;
   margin-bottom: 110px;
 }
-
 .hobbiesGrid-a{
   grid-area: 1 / 1 / 1 / 3;
 }
-
 .hobbiesGrid > ul{
   list-style: none;
 }
