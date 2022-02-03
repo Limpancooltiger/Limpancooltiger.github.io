@@ -191,9 +191,7 @@ grid-area: 1 / 1 / 2 / 2 ;
   transition-duration: 100ms
 }
 
-.marginTop{
-  margin-top: 80px;
-}
+
 
 .aboutMeGrid{
   display: grid;
@@ -399,4 +397,7 @@ footer{
 }
 .noHover{
   pointer-events: none;
+}
+.marginTop{
+  margin-top: 80px;
 }
