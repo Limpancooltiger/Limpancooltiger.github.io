@@ -3,21 +3,28 @@
   <head>
     <meta charset="utf-8">
     <title>Linus Willmont</title>
-    <link rel="stylesheet" href="../css/master.css">
+    <link rel="stylesheet" media="screen and (min-width: 641px)" href="/css/widescreen.css">
+    <link rel="stylesheet" media="screen and (max-width: 640px)" href="/css/smallscreen.css">
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
     <title></title>
   </head>
   <body>
-    <nav>
-      <div class="navigationWrap">
-        <a href="../index.html" ><img src="../images/logo.png" alt="Home Buttons" class="logo"></a>
-        <div class="navigationItems">
-          <a href="../index.html#projects" class="navItem">Project</a>
-          <a href="../index.html#education" class="navItem">Education</a>
-          <a href="../index.html#about" class="navItem">About me</a>
-          <a href="LinusWillmontCV.pdf" target="_blank" class="navItem button">Resume</a>
-        </div>
+    <nav class="navbar">
+      <a href="/index.html">Linus Willmont|Portfolio</a>
+      <a href="#" class="toggle-button">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </a>
+      <div class="navbar-links">
+        <ul>
+          <li><a href="/index.html#projects" class="navItem">Project</a></li>
+          <li><a href="/index.html#education" class="navItem">Education</a></li>
+          <li><a href="/index.html#about" class="navItem">About me</a></li>
+          <li><a href="LinusWillmontCV.pdf" target="_blank" class="resumeButton">Resume</a></li>
+        </ul>
       </div>
+      <script src="/scripts/hamburgerToggle.js"></script>
     </nav>
     <section>
       <div class="container">
@@ -47,7 +54,7 @@
               <p class="paragraphTiny">Aug 2016 — Jun 2018</p>
             </div>
           </div>
-          <img src="../images/juLogo.jpg">
+          <img class="juLogo" src="../images/juLogo.jpg">
           <p class="paragraphLight">The obvious choice for me was to study technology during my time in "gymnasiet" (high school). I started at Erik Dahlbergsgymnasiet with information and media as a focus, this gave me a good grasp of the basics of computers I.E programing, web development and hardware. Unfortunately I didn't find myself at home at that school so for my last year I changed to Bäckadal. Which is more focused on mechanical engineering and I quickly fell in love with CAD and the hands-on work so therefore i choose mechanical engineering at Jönköping University.</p>
         </div>
       </div>

@@ -1,0 +1,324 @@
+/* General */
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: Montserrat;
+  font-weight: 400;
+  color: #1a1b1f;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+section{
+  margin: 0 30px;
+}
+
+img{
+  width: 100%;
+}
+.container{
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+h1{
+  margin: 10px 0;
+  line-height: 40px;
+  font-size: 32px;
+  font-weight: 400;
+}
+
+h2{
+  margin: 10px 0;
+  line-height: 50px;
+  font-size: 28px;
+  font-weight: 400;
+}
+
+h3{
+  margin: 10px 0;
+  line-height: 46px;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+p{
+  margin-bottom: 10px;
+}
+
+li{
+  font-size: 16px;
+}
+.paragraphLight{
+  /* text-align: justify; */
+  opacity: 60%;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+.paragraphTiny{
+  opacity: 60%;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+/* Read More Links */
+.readMoreLink{
+  font-size: 16px;
+  text-transform: uppercase;
+  text-decoration: underline;
+  font-weight: 500;
+  margin-top: auto;
+  opacity: 70%;
+}
+
+.readMoreLink:hover{
+  opacity: 100%;
+  transition-timing-function: ease;
+  transition-duration: 100ms
+}
+
+/* Navigation */
+.navbar {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 10px 30px;
+}
+
+.brand-title {
+    font-size: 1.5rem;
+    margin: .5rem;
+}
+
+.navbar-links {
+    height: 100%;
+}
+
+.navbar-links ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-links li {
+    list-style: none;
+}
+
+.navbar-links li a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+}
+
+.navbar-links li:hover {
+    background-color: #555;
+}
+
+.toggle-button {
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+@media (max-width: 800px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .toggle-button {
+        display: flex;
+    }
+
+    .navbar-links {
+        display: none;
+        width: 100%;
+    }
+
+    .navbar-links ul {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .navbar-links ul li {
+        text-align: center;
+    }
+
+    .navbar-links ul li a {
+        padding: .5rem 1rem;
+    }
+
+    .navbar-links.active {
+        display: flex;
+    }
+}
+
+/* Intro section home page*/
+
+.introWrap{
+  margin-top: 100px;
+  margin-bottom: 200px;
+}
+
+/*Project Grid*/
+
+.projectGrid div a img{
+  max-width: 100%;
+}
+
+.projectDescription{
+  margin-bottom: 50px;
+}
+
+/* Education section */
+
+.educationHeadlineWrap{
+  margin-bottom: 30px;
+}
+
+/*About me section*/
+
+.marginTop{
+  margin-top: 50px;
+}
+
+.aboutMeGrid > img{
+  max-width: 100%;
+}
+
+/*Email part*/
+
+.emailSection{
+  margin-top: 20px;
+  text-align: center;
+}
+
+.emailLink{
+  text-align: center;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+.emailLink:hover{
+  transition-duration: 200ms;
+  transition-timing-function: ease;
+  opacity: 60%;
+}
+
+/*Footer*/
+
+footer{
+  background-color: #f5f5f5;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 10px 50px;
+  margin-top: 20px;
+}
+.footerLinks{
+  margin-left: auto;
+  margin-right: -20px;
+}
+
+
+/*Education Site*/
+.educationSummaryGridVertical{
+  margin-top: 50px;
+}
+
+.educationSummaryGridVertical img{
+  margin: 60px 0;
+}
+
+.juLogo{
+  margin: 60px 0;
+}
+
+
+/*About me Site*/
+
+.aboutMeIntroGrid{
+  margin-top: 50px;
+}
+
+.listSkillsGrid{
+  margin: 50px 0;
+}
+
+.skillTitleText{
+  margin-bottom: 10px;
+  font-size: 30px;
+  line-height: 46px;
+  opacity: 60%;
+}
+
+.skillList{
+  padding-left: 40px;
+}
+
+.hobbiesGrid-a{
+  margin-bottom: 20px;
+}
+
+.hobbiesGrid > ul{
+  list-style: none;
+}
+.hobbiesGrid > ul > li{
+  margin-bottom: 25px;
+}
+
+/*ProjectPages*/
+.projectOverviewGrid{
+  margin: 50px 0;
+}
+
+.projectOverview{
+  margin-bottom: 20px;
+}
+
+.projectTitle{
+  margin-bottom: 30px;
+}
+
+.projectImage{
+  margin: 20px 0;
+}
+
+.projectDescriptionGridHusqvarna div{
+  margin-bottom: 20px;
+}
+
+/*Hexapod Page*/
+
+/* Guitar Page */
+
+.projectDescriptionGrid img {
+  margin-bottom: 20px;
+}

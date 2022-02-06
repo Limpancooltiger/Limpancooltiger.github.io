@@ -3,23 +3,30 @@
   <head>
     <meta charset="utf-8">
     <title>Linus Willmont</title>
-    <link rel="stylesheet" href="../../css/master.css">
+    <link rel="stylesheet" media="screen and (min-width: 641px)" href="/css/widescreen.css">
+    <link rel="stylesheet" media="screen and (max-width: 640px)" href="/css/smallscreen.css">
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
   </head>
   <body>
-    <nav>
-      <div class="navigationWrap">
-        <a href="../../index.html" ><img src="../../images/logo.png" alt="Home Button" class="logo"></a>
-        <div class="navigationItems">
-          <a href="../../index.html#projects" class="navItem">Project</a>
-          <a href="../../index.html#education" class="navItem">Education</a>
-          <a href="../../index.html#about" class="navItem">About me</a>
-          <a href="LinusWillmontCV.pdf" target="_blank" class="navItem button">Resume</a>
-        </div>
+    <nav class="navbar">
+      <a href="/index.html">Linus Willmont|Portfolio</a>
+      <a href="#" class="toggle-button">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </a>
+      <div class="navbar-links">
+        <ul>
+          <li><a href="/index.html#projects" class="navItem">Project</a></li>
+          <li><a href="/index.html#education" class="navItem">Education</a></li>
+          <li><a href="/index.html#about" class="navItem">About me</a></li>
+          <li><a href="LinusWillmontCV.pdf" target="_blank" class="resumeButton">Resume</a></li>
+        </ul>
       </div>
+      <script src="/scripts/hamburgerToggle.js"></script>
     </nav>
     <section>
-      <div class="container">
+      <div class="container projectTitle">
         <h1>Other projects</h1>
         <p class="paragraphLight">My own projects</p>
       </div>
@@ -32,7 +39,7 @@
             <p class="paragraphLight">I created this website with the knowledge I got from my education as well as help from google.</p>
           </div>
           <img src="../../images/stockWebDev.png" class="otherProjectsImage">
-          <div>
+          <div class="cafeRacer">
             <p>Café Racer</p>
             <p class="paragraphLight">I've got a Honda CB400N motorcycle that I'm going to rebuild into a café racer. As a student I unfortunatly do not have the cash required for the tools and parts, but the preparations are done.‍‍</p>
           </div>
@@ -45,7 +52,6 @@
     <section>
       <div class="container">
         <div class="emailSection">
-          <h3>Want to work together?</h3>
           <p>If you like what you see then get in touch!</p>
           <a href="mailto:linus.willmont@hotmail.com" class="emailLink">linus.willmont@hotmail.com</a>
         </div>

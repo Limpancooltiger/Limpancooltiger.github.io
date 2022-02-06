@@ -3,20 +3,27 @@
   <head>
     <meta charset="utf-8">
     <title>Linus Willmont</title>
-    <link rel="stylesheet" href="../css/master.css">
+    <link rel="stylesheet" media="screen and (min-width: 641px)" href="/css/widescreen.css">
+    <link rel="stylesheet" media="screen and (max-width: 640px)" href="/css/smallscreen.css">
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
   </head>
   <body>
-    <nav>
-      <div class="navigationWrap">
-        <a href="../index.html" ><img src="../images/logo.png" alt="Home Buttons" class="logo"></a>
-        <div class="navigationItems">
-          <a href="../index.html#projects" class="navItem">Project</a>
-          <a href="../index.html#education" class="navItem">Education</a>
-          <a href="../index.html#about" class="navItem">About me</a>
-          <a href="LinusWillmontCV.pdf" target="_blank" class="navItem button">Resume</a>
-        </div>
+    <nav class="navbar">
+      <a href="/index.html">Linus Willmont|Portfolio</a>
+      <a href="#" class="toggle-button">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </a>
+      <div class="navbar-links">
+        <ul>
+          <li><a href="/index.html#projects" class="navItem">Project</a></li>
+          <li><a href="/index.html#education" class="navItem">Education</a></li>
+          <li><a href="/index.html#about" class="navItem">About me</a></li>
+          <li><a href="LinusWillmontCV.pdf" target="_blank" class="resumeButton">Resume</a></li>
+        </ul>
       </div>
+      <script src="/scripts/hamburgerToggle.js"></script>
     </nav>
     <section>
       <div class="container">
