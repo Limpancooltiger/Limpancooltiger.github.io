@@ -115,13 +115,14 @@ li{
 
 .navbar-links li {
     list-style: none;
+    margin-top: 10px;
 }
 
 .navbar-links li a {
     display: block;
     text-decoration: none;
     color: white;
-    padding: 1rem;
+    padding: 2rem;
 }
 
 .navbar-links li:hover {
@@ -130,8 +131,8 @@ li{
 
 .toggle-button {
     position: absolute;
-    top: .75rem;
-    right: 1rem;
+    top: 18px;
+    right: 2rem;
     display: none;
     flex-direction: column;
     justify-content: space-between;
